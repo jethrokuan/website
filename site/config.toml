@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Jethro Kuan"
+title = "How Things Work"
 copyright = ""
 
 theme = "minimo"
@@ -11,7 +11,7 @@ Paginate = 5
 preserveTaxonomyNames = true
 
 [params]
-  description = "Thoughts on software and life."
+  description = "Down the rabbithole we go"
   dateFormat = "2006, Jan 2"
   copyrightOwner = "Jethro Kuan"
   copyrightStartYear = "2017"
