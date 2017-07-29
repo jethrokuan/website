@@ -1,6 +1,6 @@
 baseURL = "/"
 title = "How Things Work"
-copyright = ""
+copyright = "Jethro Kuan"
 
 theme = "minimo"
 
@@ -11,8 +11,8 @@ Paginate = 5
 preserveTaxonomyNames = true
 
 [params]
-  description = "Down the rabbithole we go"
-  dateFormat = "2006, Jan 2"
+  description = "A project by Jethro Kuan"
+  dateFormat = "Jan 2, 2006"
   copyrightOwner = "Jethro Kuan"
   copyrightStartYear = "2017"
   favicon = "favicon.ico"
@@ -39,19 +39,31 @@ preserveTaxonomyNames = true
 [author]
   name = "Jethro Kuan"
 
-[author.social]
-  # codepen = "JethroKuan"
-  # facebook = "JethroKuan"
-  github = "jethrokuan"
-  # instagram = "instagram"
-  # twitter = "MunifTanjim"
+# [author.social]
+#   codepen = "MunifTanjim"
+#   facebook = "MunifTanjim"
+#   github = "MunifTanjim/minimo"
+#   instagram = "instagram"
+#   twitter = "MunifTanjim"
 
 [permalinks]
   page = "/:slug/"
 
 [[menu.main]]
+  name = "Home"
+  weight = 1
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "Tags"
+  weight = 2
+  identifier = "tags"
+  url = "/tags/"
+
+[[menu.main]]
   name = "Github"
-  weight = -70
+  weight = 3
   identifier = "github"
   url = "https://github.com/jethrokuan/"
 
